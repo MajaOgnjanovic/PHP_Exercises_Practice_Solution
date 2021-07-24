@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Rubik:wght@300;400;900&display=swap');
+
+/*******************
+        basic 
+*******************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:#767d85;
+    line-height: 1.6;
+}
+a {
+    color: rgb(70, 71, 70);
+    text-decoration: none;
+  }
+.container {
+    width: 70%;
+    margin: auto;
+}
+button {
+    background: #bdbd3c;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+button:hover {
+    background: #25a2c3;
+    transition: .4s ease;
+}
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* .clearfix {
+   clear: both;
+} */
+/*******************
+header
+*******************/
+.one {
+    background: #bdbd3c;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.one h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px
+}
+
+.one .three-columns1 li{
+    list-style:none;
+}
+.one .three-columns1 a {
+    width: 23%;
+    float: left;
+    padding: 10px 10px;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.one .three-columns1 a:hover {
+      color: #767d85;
+      cursor: pointer;
+}
+
+
+.one .three-columns1 .active{ 
+  font-weight: 600;
+}
+
+/*******************
+        main
+*******************/
+.two {
+    padding: 80px 0;
+}
+.two article {
+    width: 33%;
+    float: left;
+}
+.two .wrapper .frame{
+    border: 1px solid #767d85;
+    margin: 20px;
+    border-radius: 5px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.two .text {
+    padding: 30px;
+    text-align: justify;
+}
+.two .text h3 {
+    color: #25a2c3;
+}
+
+
+/*******************
+        footer
+*******************/
+footer {
+    background: #25a2c3;
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+}
+footer h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+footer .three-columns article {
+    width: 33%;
+    float: left;
+    padding: 30px 0;
+}
+footer i {
+    color: #bdbd3c;
+}
+
+/******************
+        single
+******************/
+.single {
+    padding: 80px 0;
+}
+.single article {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.single img {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+.single h2 {
+    color: #25a2c3;
+    padding-bottom: 20px;
+}
+.single p {
+    line-height: 1.5;
+}
+.single article:nth-child(1) {
+    text-align: right;
+    padding-top: 5px;
+} 
+
+

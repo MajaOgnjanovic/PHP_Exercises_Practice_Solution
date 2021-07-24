@@ -1,0 +1,9 @@
+1.	Napraviti tri  tabele - djaci, predmeti i ocene. 
+U tabelama u kojima je to potrebno dodati primarni kljuc A_I.
+Tabela djaci ima kolone broj_knjizice, ime i prezime, razred, odeljenje. 
+Tabela predmeti ima kolone: naziv, profesor.
+Napraviti tabelu ocene gde ce se voditi podaci o ocenama svih djaka iz svih predmeta.
+
+2.	Ubaciti podatke: 
+Janko Veselinovic 14-2020 iz II-4, iz matematike kod profesora MT ima 5, a iz srpskog kod profesora SR ima ocenu 4.
+Ranko Stojic 13-2020 iz III-5, iz matematike kod profesora MT ima 2, a iz srpskog kod profesora FF ima ocenu 3.

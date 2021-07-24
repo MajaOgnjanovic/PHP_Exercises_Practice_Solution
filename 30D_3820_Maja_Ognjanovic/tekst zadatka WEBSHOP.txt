@@ -1,0 +1,48 @@
+<!-- Napraviti klasu Proizvod sa članicama: id, ime, slika, opis, naslov, cena.
+Metode: 
+ - prikazi_proizvod() koji prikazuje samo naslov i sliku kao i link ka stranici detaljnije (detaljnije.php),
+ - prikazi_proizvod_detaljnije() koji prikazuje naslov, sliku, opis i cenu.
+Napraviti index.php i detaljnije.php za skracen i detaljniji prikaz.
+---------------------------------------------
+Napraviti klasu ListaProizvoda:
+ - sa članicom proizvodi[] od svih proizvoda, 
+I metodama:
+ - __construct koji ucitava sve proizvode iz nekog asocijativnog niza i pravi niz proizvodi[] od objekata klase Proizvod.
+ - prikazi_sve_proizvode() koji prikazuje listu proizvoda(samo naslov i slika).
+
+1_WebShop-li_Proiz_Detalji_Baza
+ - prikazi_jedan_proizvod($id) koji prikazuje jedan proizvod detaljno.
+
+Prepraviti index.php - da poziva i prikazuje listu proizvoda
+Prepraviti svaki link da glasi - detaljnije.php?id=…
+Prepraviti detaljnije.php da ucita id preko GET i da prikazuje proizvod sa tim id-em. -->
+----------------------------------------------------------------------------------------------------------------
+2_WebShop-Klasifikacija_Baza
+Svakom proizvodu dodati članicu: grupa. String koji prikazuje kojoj grupi proizvoda pripada. U niz $podaci dodati 'grupa'..
+Prepraviti metodu prikazi_sve_proizvode($grupa="") da prikazuje samo proizvode odredjene grupe ako je taj parameter dobijen. 
+
+Napraviti klasu WebSite. Metode: 
+ - header() sa naslovom "Dobro dosli u web-shop" - link ka index.php.
+ - footer() sa naslovom "Bolje vas nasli" 
+ - meni() koji prikazuje listu svih grupa. Svaki naziv grupe je link - index.php?grupa=…
+
+Prepraviti index.php i detaljnije.php da prikazuju i header, pa
+Meni, pa proizvode, pa footer..
+Prepraviti index.php da ucitava naziv grupe preko GET i da prikazuje grupu iz linka.
+
+----------------------------------------------------------------------------------------------------------------------
+3_ domaci
+
+1.	Nastaviti zadatak sa casa i :
+Napraviti klasu WebSite. Metode: 
+ - header() sa naslovom "Dobro dosli u web-shop" - link ka index.php.
+ - footer() sa naslovom "Bolje vas nasli" 
+ - meni() koji prikazuje listu svih grupa. Svaki naziv grupe je link - index.php?grupa=…
+2. Prepraviti index.php i detaljnije.php da prikazuju i header, pa meni, pa proizvode, pa footer...
+3.* dopunski - neobavezno: napraviti meni tako sto se pokupe sve grupe iz niza podaci, i naprave svi linkovi.
+ 
+
+
+
+
+
